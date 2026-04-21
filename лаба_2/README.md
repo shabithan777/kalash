@@ -21,7 +21,8 @@
 
 ## Скриншоты результатов 
 
-![alt text](image.png)
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/603785a8-6ed3-47d7-a420-138683c9a8db" />
+
 
 ## Ссылки на используемые материалы
 
