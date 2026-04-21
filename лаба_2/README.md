@@ -21,7 +21,7 @@
 
 ## Скриншоты результатов 
 
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/603785a8-6ed3-47d7-a420-138683c9a8db" />
+
 
 
 ## Ссылки на используемые материалы
@@ -48,7 +48,7 @@ https://docs.python.org/3/library/itertools.htmlhttps://proglib.io/p/iteriruemsy
 
 ## Скриншоты результатов 
 
-![alt text](image-2.png)
+
 
 ## Ссылки на используемые материалы
 
@@ -108,7 +108,7 @@ https://docs.python.org/3/library/itertools.htmlhttps://proglib.io/p/iteriruemsy
 
 ## Скриншоты результатов 
 
-![alt text](image-4.png)
+
 
 ## Ссылки на используемые материалы
 
