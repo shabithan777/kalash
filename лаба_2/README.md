@@ -110,6 +110,7 @@ https://docs.python.org/3/library/itertools.htmlhttps://proglib.io/p/iteriruemsy
 
 ## Скриншоты результатов 
 
+<img width="283" height="119" alt="image" src="https://github.com/user-attachments/assets/82cae1f1-5c4a-434d-b1cb-901416534de6" />
 
 
 ## Ссылки на используемые материалы
