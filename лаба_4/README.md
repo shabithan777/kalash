@@ -66,5 +66,8 @@
 ## Скриншоты результатов 
 <img width="468" height="86" alt="image" src="https://github.com/user-attachments/assets/44f5cf34-a8ab-42fd-b71b-3b3b771a76ec" />
 
+## Ссылки на используемые материалы
+https://docs.python.org/3/tutorial/classes.html#python-scopes-and-namespaces
+https://docs.python.org/3/glossary.html#term-decorator
 
 
