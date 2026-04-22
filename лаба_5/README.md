@@ -51,4 +51,12 @@ N	Сумма первых N простых чисел	Проверка
 
 Это значительно ускоряет работу по сравнению с перебором всех чисел от 2 до √n.
 
-![alt text](image.png)
+## Скриншоты результатов 
+
+<img width="438" height="234" alt="image" src="https://github.com/user-attachments/assets/af4bd119-f3a2-4911-86bb-463d7f2ce0ed" />
+
+## Ссылки на используемые материалы
+https://docs.python.org/3/glossary.html#term-generator
+https://ru.wikipedia.org/wiki/%D0%9F%D1%80%D0%BE%D1%81%D1%82%D0%BE%D0%B5_%D1%87%D0%B8%D1%81%D0%BB%D0%BE
+
+
