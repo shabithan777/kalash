@@ -18,5 +18,7 @@
 
 ## Скриншоты результатов 
 <img width="332" height="142" alt="image" src="https://github.com/user-attachments/assets/2b4de71c-7959-4a8d-bfb0-f8262db2d9d1" />
+
+
 <img width="458" height="101" alt="image" src="https://github.com/user-attachments/assets/babad26b-6437-411d-9edd-ea8d32c076e8" />
 
