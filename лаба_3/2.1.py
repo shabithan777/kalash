@@ -1,23 +1,38 @@
-def calc_iterative(k):
-    if k == 1 or k == 2:
-        return 0
-    if k == 3:
+def calculate_v(n):
+    """
+    Вычисляет v_n по рекуррентной формуле:
+    v_i = (i+1)/(i^2+1) * v_{i-1} - v_{i-2} * v_{i-3}
+    
+    Параметры:
+    n — индекс нужного элемента (n >= 1)
+    
+    Возвращает:
+    значение v_n
+    """
+    if n == 1 or n == 2:
+        return 0.0
+    if n == 3:
         return 1.5
     
-    a, b, c = 0, 0, 1.5  # v1, v2, v3
+    # Инициализация трёх последних значений
+    # v_{i-3}, v_{i-2}, v_{i-1}
+    v_minus_3 = 0.0   # v_1
+    v_minus_2 = 0.0   # v_2
+    v_minus_1 = 1.5   # v_3
     
-    for i in range(4, k + 1):
-        d = ((i + 1) / (i*i + 1)) * c - b * a  
-        a, b, c = b, c, d
+    # Вычисляем с i = 4 до n
+    for i in range(4, n + 1):
+        # Вычисляем новое значение по формуле
+        v_new = ((i + 1) / (i ** 2 + 1)) * v_minus_1 - v_minus_2 * v_minus_3
+        
+        # Сдвигаем переменные для следующей итерации
+        v_minus_3 = v_minus_2
+        v_minus_2 = v_minus_1
+        v_minus_1 = v_new
     
-    return c
+    return v_minus_1
 
-# Выводим результат
-print("v(1) =", calc_iterative(1))
-print("v(2) =", calc_iterative(2))
-print("v(3) =", calc_iterative(3))
-print("v(4) =", calc_iterative(4))
-print("v(5) =", calc_iterative(5))
-print("v(6) =", calc_iterative(6))
-print("v(7) =", calc_iterative(7))
-print("v(8) =", calc_iterative(8))
+
+# Пример использования
+for n in range(1, 11):
+    print(f"v_{n} = {calculate_v(n)}")
