@@ -21,6 +21,7 @@
 
 ## Скриншоты результатов 
 
+<img width="349" height="48" alt="image" src="https://github.com/user-attachments/assets/472220f9-d638-4dae-8298-730bee23aaa7" />
 
 
 
