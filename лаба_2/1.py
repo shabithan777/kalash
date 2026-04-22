@@ -1,28 +1,29 @@
-import itertools
+from itertools import product
 
-def task1():
-    # Доступные буквы
-    letters = ['В', 'И', 'Ш', 'Н', 'Я']
-    # Гласные (нельзя заканчивать на них)
-    vowels = ['И', 'Я']
-    count = 0
-    
-    # Перебираем все возможные 6-буквенные комбинации
-    for word_tuple in itertools.product(letters, repeat=6):
-        word = ''.join(word_tuple)
-        
-        # Не начинается с Ш
-        if word[0] == 'Ш':
-            continue
-        # Не оканчивается на гласную
-        if word[-1] in vowels:
-            continue
-        # Буква В не более одного раза
-        if word.count('В') > 1:
-            continue
-        
-        count += 1
-    
-    return count
+# Допустимые буквы
+letters = ['В', 'И', 'Ш', 'Н', 'Я']
 
-print(task1())
+# Подсчёт количества подходящих слов
+count = 0
+
+# Перебираем все возможные 6-буквенные слова
+for word_tuple in product(letters, repeat=6):
+    word = ''.join(word_tuple)
+    
+    # Условие 1: буква В используется не более одного раза
+    if word.count('В') > 1:
+        continue
+    
+    # Условие 2: слово не должно начинаться с буквы Ш
+    if word[0] == 'Ш':
+        continue
+    
+    # Условие 3: слово не должно оканчиваться гласными буквами
+    # Гласные в данном наборе: И, Я
+    if word[-1] in ['И', 'Я']:
+        continue
+    
+    # Если все условия выполнены, увеличиваем счётчик
+    count += 1
+
+print(f"Количество подходящих слов: {count}")
