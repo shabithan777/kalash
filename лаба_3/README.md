@@ -112,6 +112,7 @@ https://ru.wikipedia.org/wiki/Итерация_(программирование
 
 ## Скриншоты результатов
 
+<img width="430" height="190" alt="image" src="https://github.com/user-attachments/assets/767b4a91-75ba-4ccb-8216-640be3168c1a" />
 
 
 ## Ссылки на используемые материалы
