@@ -42,6 +42,7 @@
 
 ## Скриншоты результатов 
 
+<img width="281" height="56" alt="image" src="https://github.com/user-attachments/assets/0525d40d-03de-4298-80cb-96ad7abbd5d9" />
 
 
 ## Ссылки на используемые материалы
